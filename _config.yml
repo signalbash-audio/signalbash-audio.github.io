@@ -1,0 +1,17 @@
+title: Signalbash Support
+description: Support & Documentation Info for signalbash.com & the Signalbash Plugin
+theme: just-the-docs
+
+url: https://signalbash-audio.github.io
+favicon_ico: "/assets/images/signalbash_logo_96x.png"
+logo: "/assets/images/signalbash_logo_2000x.png"
+
+# Aux links for the upper right navigation
+aux_links:
+  "Back to signalbash.com":
+    - "https://signalbash.com"
+
+aux_links_new_tab: true
+
+# 
+footer_content: "Copyright &copy; 2025 Signalbash"
