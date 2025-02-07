@@ -15,3 +15,5 @@ _site/
 vendor/
 
 .DS_Store
+
+_local_run.md

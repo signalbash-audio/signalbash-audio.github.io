@@ -58,6 +58,8 @@ To do this, open the Signalbash Plugin UI in your DAW. Then, click the settings
 cog icon in the top right corner. A button will appear that says "Change Session Key".
 Input your other session key, and your plugin will start using it immediately.
 
+At the moment, it is currently not possible to change the session key
+associated with a Signalbash account.
 
 ## Don't Lose Your Session Key
 
