@@ -55,7 +55,6 @@ standard profile information fields which you can customize.
     - All Time: All your activity combined
 
 
-
 ## How to Create An Account
 
 Signalbash accounts are free to make and do not require an email address.
@@ -82,6 +81,12 @@ Once you do this, the Plugin will verify the key, and you'll be able to
 start tracking your activity. 
 
 Learn More: [Signalbash Session Key](/website/session-key)
+
+After creating an account, you will have 24 hours to verify your session
+key. Once verified, your account will exist as long as you'd like. However,
+if you don't verify your session key within the 24 window, that account
+will be automatically deleted, and the associated username will become available
+for others to use.
 
 
 ### Signalbash User Names

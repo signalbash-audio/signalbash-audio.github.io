@@ -47,6 +47,38 @@ Once you've verified that you've enabled VST3 in your DAW, click rescan
 plugins, and Signalbash should appear.
 
 
+## System Requirements
+
+Signalbash is very lightweight. If your machine can effectively run DAW/NLE
+software, you won't have an issue adding the Signalbash plugin to a session.
+
+In order to run the plugin, your Host software must be capable of loading
+one of the plugin formats shown the Plugin Types section above.
+
+Signalbash also requires an internet connection in order to properly save
+activity.
+
+Signalbash is only available for 64 bit machines.
+
+Signalbash is available for macOS & Windows machines.
+
+### macOS
+
+Signalbash can be installed & run on macOS version 10.11 or greater. Both Intel
+& ARM architectures are supported.
+
+## Windows
+
+Signalbash can be run on machines running the Windows operating system
+with Windows 7 or greater.
+
+Signalbash is not currently available on Windows machines with ARM processors.
+
+## Linux
+
+Signalbash is not currently available with Linux operating systems.
+
+
 ## Installation Locations
 
 The Installer will install each plugin type at the following locations on your
@@ -68,3 +100,170 @@ computer:
 
 To uninstall the plugin, visit the locations on your computer specified above in
 the Installation Locations section and delete the plugin files.
+
+
+## Plugin Usage
+
+### UI
+
+The plugin consists of three views:
+
+- The Main View
+
+    The main view is the default and features the Signalbash logo mark.
+
+- Session Key Input
+
+    This view is where you can update or change your session key. It opens
+    when you load the plugin for the very first time, and can then be
+    accessed through the settings view.
+
+- Settings View
+
+    This view allows you to see the DAW/NLE host software detected by the
+    plugin, an obfuscated view of your session key, and has an option to
+    disable the logo rotation animation. You can also copy or change
+    your session key through this view.
+
+All views have a toolbar indicating the current state/network status of the
+plugin, and can help diagnose any issues.
+
+
+### First Use & Setup
+
+In order to start tracking activity in a DAW session, a session key must be
+set in the plugin. You can get your session key from your account on
+signalbash.com. See the [Session Key](/website/session-key) page for more info.
+
+Once you input your key & hit submit, the plugin will verify the session key
+is valid.
+
+If the session key is valid, the plugin will move to the default view, which
+should show a green status indicator indicating the session key is verified,
+and your internet connection is online and ready to submit your activity.
+
+If the session key is invalid, the indicator will report that it can't
+validate the key. You can retry the validation if this is the case.
+
+If your internet connection is offline when you go to validate your key, the
+plugin will also report that it cannot validate the key. Ensure your internet
+is working, then try again using the retry button.
+
+
+### Changing Your Session Key
+
+If you've misentered your session key, or want to use a session key
+associated with another account, you can do so in the plugin settings.
+
+In the upper right corner of the plugin UI, there is a settings cog button
+
+Click this button to open the settings view. Here, you can click the "Change
+Session Key" button to re-open the session key input, and input the new value.
+
+With a new key, the plugin will attempt to validate the key in the same manner
+as described above.
+
+
+### Routine Use
+
+The plugin UI does not need to be open in order to track your activity. However,
+a valid session key needs to be set in order for it to work properly.
+
+When the plugin detects a signal, the logo will begin to rotate. This indicates
+that your activity is being registered locally by the plugin, and will shortly
+be reflected in your Signalbash Account.
+
+### Activity Submission
+
+The plugin will submit your activity to your account approximately every two
+minutes.
+
+In the settings view, there is a progress bar that will move across the UI
+underneath the toolbar. Shortly after the bar reaches the end of the screen
+and "restarts" any unsubmitted activity detected by the plugin will be submitted
+to your Signalbash account.
+
+### Plugin Settings View
+
+The plugin settings view allows you to see what host you're running the plugin
+through. This is sent along with your activity to be displayed on your
+account in the Signalbash Leaderboard.
+
+If the host name displays the value "Unknown" that means you're running the
+plugin on a DAW that Signalbash does not currently fully support. If you
+want to have this host software formally added, please report an issue on
+the issue tracker: 
+[Issue Tracker](https://github.com/signalbash-audio/signalbash/issues)
+
+You can also copy your full session key to your clipboard in this view.
+This is useful if you're trying to log back into your account and you
+have forgotten your password. See the [Session Key](/website/session-key)
+help page for more info.
+
+The Change Session Key button will allow you to change the session key the
+plugin is currently using to report activity.
+
+If you want to disable the rotation of the logo to indicate that activity
+is being registered, you can uncheck the "Enable Animation" checkbox.
+If you do this, activity will still be recorded by the plugin, but the
+animation won't spin. This functionality will persist between sessions until
+you change it.
+
+To return to the Main View, click the settings cog button again.
+
+### Bypassing
+
+You can bypass the plugin entirely through your DAW's native functionality.
+If you do so, the plugin will still submit any pending activity to your
+account, but any additional activity will not be saved until you re-enable
+the plugin.
+
+
+### Closing a session
+
+If you close a session where the Signalbash plugin is active, any pending
+unsubmitted activity will be discarded.
+
+Since the plugin submits activity every two minutes, the maximum unreported
+activity will also be two minutes, assuming your internet connection is
+healthy.
+
+
+### Multiple Instances in a Single Session
+
+If you open multiple instances of the plugin in a single session, Signalbash
+will discard all activity from all instances except for the one
+reporting the highest amount of
+activity. This is done to ensure your activity is not over-reported.
+
+This process may be imperfect and may not be reflected instantaneously.
+As such, it's
+recommended you only add a single instance of the plugin to your master.
+
+
+### Connection Offline Retry Behavior
+
+Occasionally, signalbash.com may be temporarily offline for maintenace,
+or your internet
+connection may briefly go down. When this occurs, the status indicator
+will change to red in the plugin toolbar to reflect this.
+
+The plugin will automatically attempt to retry submission when it receives an error
+until either your internet or signalbash.com comes back
+online. Once a connection is re-established, the indicator will show green
+"Connection Healthy" status again.
+
+During any downtime from either end, your activity will still be saved
+locally through the plugin, and will appear in full in your Signalbash account
+once the connection is re-established.
+
+If you have unsubmitted activity in this situation, and you exit your DAW session,
+any pending activity gets discarded, and will not be reflected in your account.
+
+
+## License & Source
+
+The Signalbash Plugin is Free & Open Source Software, licensed under the
+AGPL-v3.0. You can obtain a copy of the plugin source at
+[github.com/signalbash-audio/signalbash](https://github.com/signalbash-audio/signalbash)
+

@@ -7,7 +7,7 @@ nav_order: 0
 
 # Signalbash Documentation
 
-This site contains help & support documentation for the signalbash.com
+This site contains help & support documentation for the signalbash.com website
 and the Signalbash Audio Plugin.
 
 
@@ -33,7 +33,6 @@ relevant to the signalbash plugin.
 - Signalbash Plugin issues can be reported in it's github issue tracker:
     [Issue Tracker](https://github.com/signalbash-audio/signalbash/issues)
 - For website issues, DM or tag @signalbash on X/Twitter: [Link](https://x.com/signalbash)
-
 
 
 ## Links
