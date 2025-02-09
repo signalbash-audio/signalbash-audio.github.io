@@ -6,5 +6,5 @@ This is the support documentation & manual for [signalbash.com](https://signalba
 
 - [signalbash.com](https://signalbash.com)
 - [Signalbash Plugin Download](https://signalbash.com/plugin-download)
-- [Official Signalbash Documentation](https://signalbash-audio.github.io)
+- [Official Signalbash Documentation](https://info.signalbash.com)
 
