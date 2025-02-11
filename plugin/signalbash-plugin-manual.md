@@ -25,7 +25,9 @@ The installer will give you the option to install the following plugin types:
 
 - VST3
 - CLAP
+- AAX
 - AU (macOS only)
+
 
 
 VST2 is not available.
@@ -89,11 +91,13 @@ computer:
 - Signalbash.vst3: `/Library/Audio/Plug-Ins/VST3`
 - Signalbash.clap: `/Library/Audio/Plug-Ins/CLAP`
 - Signalbash.component: `/Library/Audio/Plug-Ins/Components`
+- Signalbash.aaxplugin: `/Library/Application Support/Avid/Audio/Plug-Ins`
 
 ### Windows
 
 - Signalbash.vst3: `C:\Program Files\Common Files\VST3`
 - Signalbash.clap: `C:\Program Files\Common Files\CLAP`
+- Signalbash.aaxplugin: `C:\Program Files\Common Files\Avid\Audio\Plug-Ins`
 
 
 ## Uninstalling
