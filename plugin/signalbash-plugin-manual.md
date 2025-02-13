@@ -153,6 +153,11 @@ If your internet connection is offline when you go to validate your key, the
 plugin will also report that it cannot validate the key. Ensure your internet
 is working, then try again using the retry button.
 
+Once your session key is setup & validated, you won't need to go through this
+process again. Every time you initalize the plugin in an new session,
+the session key you setup will automatically be loaded. You can however change
+your session key at any time if necessary (see the next section).
+
 
 ### Changing Your Session Key
 
@@ -263,6 +268,40 @@ once the connection is re-established.
 
 If you have unsubmitted activity in this situation, and you exit your DAW session,
 any pending activity gets discarded, and will not be reflected in your account.
+
+
+## Audio Transparency
+
+When placed on any track or bus in a DAW, the Signalbash Plugin allows
+audio to pass through unaltered.
+
+Because the plugin does not affect audio in any way, it is safe to place anywhere on the master chain. Additionally, you do not have to worry about bypassing or
+removing the plugin before exporting/bouncing your audio to a file.
+
+Most importantly, **The Signalbash Plugin Does Not Save, Send, or Cache Your
+Actual Audio At Any Point**. The plugin is only timing the duration in which
+your audio goes above an audible dB threshold, and reporting this information
+to signalbash.com, along with the particular DAW you're using, and the time at
+which the audible signal was detected.
+
+## System Clock Settings
+
+The Signalbash plugin gets the current time from the your computer where
+you're running your DAW.
+In most cases, this should be accurate, as most operating systems set the
+time automatically.
+
+However, if you set your time/timezone manually, or you purposefully have your
+system clock set to be innacurate, the activity may not correctly be reported.
+This may mean that your activity could appear inaccurate or not appear in your
+account at all.
+
+If this is occuring, reset the clock back to the current time in your system
+preferences.
+After you've
+reset the time, remove the plugin from your session, and then re-add it.
+This will resync the
+plugin, and subsequent activity should be accurately reported again.
 
 
 ## License & Source
