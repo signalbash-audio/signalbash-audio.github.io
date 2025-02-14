@@ -169,11 +169,10 @@ You can add links which will appear on your profile. To do so, click
 "Add Link". Add the URL, and the optional "link title" field.
 
 
-
 ## Deleting Your Signalbash Account
 
 You can easily delete your account at any time. When deleting your account,
-all your activity will be permanently deleted. 
+all your activity and associated account data will be permanently deleted. 
 
 To delete your account:
 - Click Your Profile Icon in the top right corner of the website
@@ -182,3 +181,64 @@ To delete your account:
 - Follow the instructions to confirm
 
 Once deleted, your account can't be recovered.
+
+
+## Activity Stats
+
+### Streaks
+
+Streaks denote how many consecutive days you've been working in your DAW.
+Signalbash reports both your Current Streak, and your All Time Streak.
+
+Activity is grouped by days based on your current timezone, which is handled
+automatically by your browser.
+
+Your Current Streak will display your most recent activity streak. If
+you haven't been active on the current date, but have activity on the previous
+date, the streak will still show the most recent streak count. Once two
+consecutive days without activity have been detected (today & yesterday), the
+current streak will reset to 0.
+
+
+## Images
+
+Signalbash.com use the modern webp codec to display and encode images in order to
+feature high quality
+images with smaller file sizes, and also support alpha channels/transparency.
+
+However, legacy browsers on older machines and phones may not be able to
+display or use these formats.
+
+At the moment, we do not have any fallback support for legacy browsers.
+
+If you are having issues seeing images appear on the leaderboard or your
+profile, you may be on an outdated browser. For example, this is likely to
+happen if you're
+using the Safari browser on a computer or iphone with an old operating system 
+version.
+
+To fix the issue, visit the site on a more modern browser. Chromium based
+browsers such as Edge or Chrome should work well, even on older operating
+systems.
+
+This may be a requirement to upload profile images in some cases, as images
+are resized by your browser before being stored in your account.
+
+When changing your profile image, if you already had a previous
+profile image set, the old profile image will be permanently deleted once
+the new profile image is finalized and uploaded.
+
+The source image file used to create your profile image will
+not be stored. Only the derived, resized variants are stored.
+To ensure the highest quality across the site, we suggest using a lossless
+image format such as PNG, with dimensions of at least 1000x1000.
+
+You must have the necessary permissions to upload images to your account, and
+its contents must abide by the Signalbash Terms of Service.
+If you upload images with content that violates the terms of service or
+that you do not have permission to use, they may be removed. Repeat or egregious
+violations may result in bans.
+If someone is using an image which you hold the
+copyright for, visit the Copyright Page, accessible from the signalbash.com site
+footer, for instructions to issue a takedown request.
+
