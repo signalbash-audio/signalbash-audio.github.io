@@ -8,7 +8,7 @@ nav_order: 3
 # Signalbash Plugin Manual
 
 The Signalbash Plugin is a free and open source audio plugin that you
-can place on your DAW to track how long you've been actively working
+can use in your DAW to track how long you've been actively working
 on creating music, podcasts, or other types of audio content.
 
 ## Downloading & Installing The Plugin
@@ -16,8 +16,7 @@ on creating music, podcasts, or other types of audio content.
 The Signalbash Plugin can be downloaded from
 [https://signalbash.com/plugin-download](https://signalbash.com/plugin-download).
 
-The download page on signalbash.com will download the installer appropriate for
-your computer.
+The download page on signalbash.com will prompt you to download the installer compatible with your computer.
 
 ## Plugin Types
 
@@ -37,13 +36,15 @@ VST2 is not available.
 
 If you're using a DAW or on an OS that doesn't support CLAP or AU, you might
 not see the Signalbash plugin appear immediately. For example, if you're
-using Ableton Live 11 on a Windows computer.
+using Ableton Live 11 or earlier on a Windows computer.
 
-Some DAWs don't enable VST3 by default, and only have VST2 folder enabled by
-default. 
+This is likely because some DAWs don't enable VST3 plugins by default, and will
+initially only display installed VST plugins from your VST2 folder. 
 
 If you don't see the plugin listed in your DAW's plugins list, ensure
-that your DAW has the VST3 folder enabled.
+that your DAW has the VST3 folder enabled. This process is slightly different
+for each DAW, but generally involves toggling a checkbox in the DAW's
+settings/preferences.
 
 Once you've verified that you've enabled VST3 in your DAW, click rescan
 plugins, and Signalbash should appear.
