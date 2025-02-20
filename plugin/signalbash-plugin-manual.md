@@ -22,9 +22,9 @@ The download page on signalbash.com will prompt you to download the installer co
 
 The installer will give you the option to install the following plugin types:
 
-- VST3
-- CLAP
-- AAX
+- VST3 ( macOS \| Windows \| Linux )
+- CLAP ( macOS \| Windows \| Linux )
+- AAX ( macOS \| Window )
 - AU (macOS only)
 
 
@@ -52,7 +52,8 @@ plugins, and Signalbash should appear.
 
 ## System Requirements
 
-Signalbash is very lightweight. If your machine can effectively run DAW/NLE
+Signalbash is very lightweight & performant.
+If your machine can effectively run DAW/NLE
 software, you won't have an issue adding the Signalbash plugin to a session.
 
 In order to run the plugin, your Host software must be capable of loading
@@ -63,23 +64,25 @@ activity.
 
 Signalbash is only available for 64 bit machines.
 
-Signalbash is available for macOS & Windows machines.
+Signalbash is available for macOS, Windows, & Linux machines.
 
 ### macOS
 
 Signalbash can be installed & run on macOS version 10.11 or greater. Both Intel
 & ARM architectures are supported.
 
-## Windows
+### Windows
 
 Signalbash can be run on machines running the Windows operating system
 with Windows 7 or greater.
 
-Signalbash is not currently available on Windows machines with ARM processors.
+Signalbash is not currently available natively on Windows machines with
+ARM processors.
 
-## Linux
+### Linux
 
-Signalbash is not currently available with Linux operating systems.
+Signalbash can be installed & run on x64 (amd64/x86_64) and ARM64/aarch64
+Linux Operating Systems.
 
 
 ## Installation Locations
@@ -99,6 +102,21 @@ computer:
 - Signalbash.vst3: `C:\Program Files\Common Files\VST3`
 - Signalbash.clap: `C:\Program Files\Common Files\CLAP`
 - Signalbash.aaxplugin: `C:\Program Files\Common Files\Avid\Audio\Plug-Ins`
+
+### Linux
+
+Linux installation is performed manually by unzipping the
+appropriate zip file containing the Signalbash Plugin types, and
+placing them in the desired directories. Common locations include the
+following:
+
+- Signalbash.clap:
+    - `~/.clap`
+    - `/usr/lib/clap`
+- Signalbash.vst3:
+    - `~/.vst3`
+    - `/usr/lib/vst3/`
+    - `/usr/local/lib/vst3/`
 
 
 ## Uninstalling
