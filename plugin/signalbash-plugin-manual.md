@@ -24,9 +24,8 @@ The installer will give you the option to install the following plugin types:
 
 - VST3 ( macOS \| Windows \| Linux )
 - CLAP ( macOS \| Windows \| Linux )
-- AAX ( macOS \| Window )
+- AAX ( macOS \| Windows )
 - AU (macOS only)
-
 
 
 VST2 is not available.
