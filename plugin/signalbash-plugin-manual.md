@@ -322,6 +322,36 @@ This will resync the
 plugin, and subsequent activity should be accurately reported again.
 
 
+## What type of DAW usage does Signalbash not detect?
+
+Signalbash can only detect activity if there's an audio signal being
+sent through the channel/bus where the plugin is placed. Any usage of
+your DAW while audio isn't playing can't be quantified or detected,
+and thus won't count towards your activity totals. For example: changing
+DAW settings, re-organizing/grouping tracks, etc. 
+
+Additionally, certain tasks in a DAW may play audio,
+but not route that audio through
+the master, such as previewing audio samples that can
+be browsed and played through your DAW's UI.
+
+
+## Usage with Video Editing Software
+
+Certain video editors/non-linear editing software programs support the
+use of audio plugins. Currently, Signalbash can report activity from
+Adobe Premiere Pro, Davinci Resolve, and Apple Final Cut Pro.
+
+Video editing workflow are distinct from working in a DAW, as video
+editing tasks may not involve working with audio at all.
+
+In order for the Signalbash plugin to report activity, it requires
+an audio signal to be running through the mix bus/channel where it is
+placed. When you're performing editing tasks where no audio is
+actively playing, no activity will be reported, even if the timeline
+playhead is moving. For example, if you're cutting video without audio, or performing coloring & other VFX related tasks.
+
+
 ## License & Source
 
 The Signalbash Plugin is Free & Open Source Software, licensed under the
