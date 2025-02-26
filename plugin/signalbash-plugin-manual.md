@@ -352,9 +352,76 @@ actively playing, no activity will be reported, even if the timeline
 playhead is moving. For example, if you're cutting video without audio, or performing coloring & other VFX related tasks.
 
 
+## Supported DAW / NLE / Host Software
+
+Signalbash can be used in any DAW/NLE running on one of the above supported
+operating systems (see "System Requirements Section Above") that can
+load plugins in one or more of the following plugin formats:
+
+- VST3
+- CLAP
+- AAX
+- AU
+
+
+### Host Name Recognition
+
+While Signalbash can be loaded and properly detect activity in any host
+program meeting the above requirements, the Signalbash Plugin can only
+detect the name of the DAW/NLE for the following:
+
+- Ableton Live
+- Adobe Audition
+- Adobe Premiere
+- Apple GarageBand
+- Apple Logic Pro
+- Apple MainStage
+- Ardour
+- Pro Tools
+- Bitwig Studio
+- Cakewalk Sonar
+- Cakewalk by Bandlab
+- DaVinci Resolve
+- Digital Performer
+- Final Cut
+- FL Studio
+- Magix Samplitude
+- Magix Sequoia
+- Pyramix
+- Muse Receptor
+- NI Maschine
+- Reaper
+- Reason
+- Renoise
+- SADiE
+- Steinberg Cubase
+- Steinberg Nuendo
+- Steinberg Wavelab
+- Studio One
+- Tracktion Waveform
+- Vienna Ensemble Pro
+- WaveBurner
+
+This means that the Plugin will report "Unknown" or "Other" in your
+account or leaderboard if you're using software not in the above list.
+The detected name of the host software can also be viewed in the
+"Settings" view of the Signalbash plugin (click the settings cog icon
+in the plugin toolbar to open this view).
+
+### Requesting Detection of Unsupported DAWs
+
+It's the intent of Signalbash to accurately support activity reporting
+for as many DAWs as possible. If you're using a host that gets
+reported as Other or Unknown, please open an issue request through one
+of the following methods:
+
+- Open an issue on the Signalbash Issue Tracker:
+  [Issue Tracker](https://github.com/signalbash-audio/signalbash/issues) 
+- DM Signalbash directly: [Link](https://x.com/signalbash)
+
+
 ## License & Source
 
 The Signalbash Plugin is Free & Open Source Software, licensed under the
 AGPL-v3.0. You can obtain a copy of the plugin source at
 [github.com/signalbash-audio/signalbash](https://github.com/signalbash-audio/signalbash)
-
