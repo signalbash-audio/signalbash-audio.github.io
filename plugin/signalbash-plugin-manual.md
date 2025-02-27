@@ -352,6 +352,15 @@ actively playing, no activity will be reported, even if the timeline
 playhead is moving. For example, if you're cutting video without audio, or performing coloring & other VFX related tasks.
 
 
+## Supported Channel Layouts
+
+Signalbash can be placed on tracks with the following channel layouts:
+
+- Mono
+- Dual Mono
+- Stereo
+
+
 ## Supported DAW / NLE / Host Software
 
 Signalbash can be used in any DAW/NLE running on one of the above supported
@@ -408,7 +417,7 @@ The detected name of the host software can also be viewed in the
 "Settings" view of the Signalbash plugin (click the settings cog icon
 in the plugin toolbar to open this view).
 
-### Requesting Detection of Unsupported DAWs
+### Requesting Support for New DAWs
 
 It's the intent of Signalbash to accurately support activity reporting
 for as many DAWs as possible. If you're using a host that gets
